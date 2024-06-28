@@ -1,15 +1,69 @@
-$fuente_principal :  "Montserrat", sans-serif;
+// FUENTE
+    /* Google fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
-// Colores
-$verde:#4CB8B3;
-$rosa: #F53756;
-$amarillo: #fdda00;
-$morado: #752F97;
-$negro: #000000;
-$blanco: #FFFFFF;
+    $fuente_principal :  "Poppins", sans-serif;
 
-//Media Queies
-$telefono: 480px;
-$tablet: 768px;
-$desktop: 1200px;
-$desktopXL: 1400px;
+    /* font-size */
+    $h1-font-size: 2.4rem;
+    $h2-font-size: 2rem;
+    $h3-font-size: 1.8rem;
+    
+    $big-font-size: 3.2rem;
+    $normal-font-size: 1.5rem;
+    $small-font-size: 1.3rem;
+    $smaller-font-size: 1.2rem;
+
+    /* font-weight */
+    $font-medium: 500;
+    $font-semi-bold: 600;
+
+    /* header height */
+    $header-height: 3rem;
+
+     /* margenes Bottom */
+    $mb-0-25: .4rem;
+    $mb-0-5: .8rem;
+    $mb-0-75: 1.2rem;
+    $mb-1: 1.5rem;
+    $mb-1-5: 2.4rem;
+    $mb-2: 3.2rem;
+    $mb-2-5: 4rem;
+    $mb-3: 4.8rem;
+
+    /*========== z index ==========*/
+    $z-tooltip: 10;
+    $z-fixed: 100;
+    $z-modal: 1000;
+
+    /* Font size for large devices */
+
+
+ // COLORS 
+    /* Change favorite color */
+    $hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+
+    /* HSL color mode */
+    $first-color: hsl($hue-color, 69%, 61%);
+    $first-color-second: hsl($hue-color, 69%, 61%);
+    $first-color-alt: hsl($hue-color, 57%, 53%);
+    $first-color-lighter: hsl($hue-color, 92%, 85%);
+    $title-color: hsl($hue-color, 8%, 15%);
+    $text-color: hsl($hue-color, 8%, 45%);
+    $text-color-light: hsl($hue-color, 8%, 65%);
+    $input-color: hsl($hue-color, 70%, 96%);
+    $body-color: hsl($hue-color, 60%, 99%);
+    $container-color: #fff;
+    $scroll-bar-color: hsl($hue-color, 12%, 90%);
+    $scroll-thumb-color: hsl($hue-color, 12%, 80%);
+
+    $negro: #000000;
+    $blanco: #FFFFFF;
+
+
+
+// MEDIA QUERIES
+    $telefono: 480px;
+    $tablet: 768px;
+    $desktop: 1200px;
+    $desktopXL: 1400px;

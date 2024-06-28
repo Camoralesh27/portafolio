@@ -4,48 +4,54 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     scroll-padding-top: 0rem;
+    scroll-behavior: smooth;
 }
+
 *, 
 *:before,
 *:after {
     box-sizing: inherit;
 }
+
 body {
-    font-family: v.$fuente_principal;
     font-optical-sizing: auto;
     font-style: normal;
-    color: v.$negro;
-    font-size: 2rem;
 
-    /* Cuando tenga el modal activo todo alrededor se esconde */
-    &.overflow-hidden {
-        overflow: hidden;
-    }
+    margin: 0 0 v.$header-height 0;
+    font-family: v.$fuente_principal;
+    font-size: v.$normal-font-size;
+    background-color: v.$body-color;
+    color: v.$negro;
 }
+
+h1, h2, h3 {
+    /* margin: 0 0 5rem 0; */
+    color: v.$title-color;
+    font-weight: v.$font-semi-bold
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: v.$text-color;
+}
+
 p {
     color: v.$negro;
     line-height: 1.5;
 }
-.contenedor {
-    width: 95%;
-    max-width: 120rem;
-    margin: 0 auto;
-}
-a {
-    text-decoration: none;
-}
-h1, h2, h3 {
-    margin: 0 0 5rem 0;
-    font-weight: 900;
-}
+
 h1 {
-    font-size: 4rem;
+    font-size: v.$h1-font-size;
 }
 h2 {
-    font-size: 4.6rem;
+    font-size: v.$h2-font-size;
 }
 h3 {
-    font-size: 6rem;
+    font-size: v.$h3-font-size;
     text-align: center;
 }
 img {
@@ -54,6 +60,39 @@ img {
     height: auto;
     display: block;
 }
-body > section {
-    padding: 10rem 0
+
+
+/*==================== REUSABLE CSS CLASSES ====================*/
+.section {
+    padding: 2rem 0 4rem;
+
+    &__title {
+        font-size: var(--h1-font-size);
+        color: var(--title-color);
+    }
+
+    &__subtitle {
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-3);
+    }
+
+    &__title,
+    &__subtitle {
+        text-align: center;
+    }
 }
+
+/*==================== LAYOUT ====================*/
+.container {
+    width: 95%;
+    /* max-width: 120rem; */
+    max-width: 76.8rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 2.4rem;
+}
+

@@ -20,14 +20,12 @@ export function js(done) {
 }
 
 export function css( done ){
-    src('src/scss/app.scss', {sourcemaps: true}) /* esta tomando el src del import de gulp */
-        .pipe( sass({outputStyle: 'compressed'}).on('error', sass.logError)) /* ubica src, luego ejecuta sass */
-        /* on esta verificando si hay errore, en tal caso los manda a consola el error*/
-        .pipe( dest('build/css', {sourcemaps: '.'})) /* luego lo compilado lo almacena en build css */
+    src('src/scss/app.scss', {sourcemaps: true}) 
+        .pipe( sass({outputStyle: 'compressed'}).on('error', sass.logError)) 
+        .pipe( dest('build/css', {sourcemaps: '.'})) 
 
     done();
 }
-
 
 export async function crop(done) {
     const inputFolder = 'src/img/gallery/full'
@@ -58,8 +56,6 @@ export async function crop(done) {
     }
 }
 
-
-
 export async function imagenes(done) {  //webp
     const srcDir = './src/img';
     const buildDir = './build/img';
@@ -86,12 +82,11 @@ function procesarImagenes(file, outputSubDir) {
     const options = { quality: 80 }
     sharp(file).jpeg(options).toFile(outputFile)
     sharp(file).webp(options).toFile(outputFileWebp)
-    sharp(file).avif().toFile(outputFileAvif) //se le quitó options para que no genere un archivo más grande por el 80% de quality
+    sharp(file).avif().toFile(outputFileAvif)
 }
 
 export function dev() {
-    watch('src/scss/**/*.scss', css) /* observa lo que sucede en el primer parametro, y lo actualiza ejecutando function css */
-    /*  ** todos los archivos */
+    watch('src/scss/**/*.scss', css) 
     watch('src/js/**/*.js', js)
     watch('src/img/**/*.{png,jpg}', imagenes)
 }
