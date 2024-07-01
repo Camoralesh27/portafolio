@@ -5,14 +5,14 @@
     $fuente_principal :  "Poppins", sans-serif;
 
     /* font-size */
-    $h1-font-size: 2.4rem;
-    $h2-font-size: 2rem;
-    $h3-font-size: 1.8rem;
+    $h1-font-size: 1.5rem;
+    $h2-font-size: 1.25rem;
+    $h3-font-size: 1.125rem;
     
-    $big-font-size: 3.2rem;
-    $normal-font-size: 1.5rem;
-    $small-font-size: 1.3rem;
-    $smaller-font-size: 1.2rem;
+    $big-font-size: 2rem;
+    $normal-font-size: .938rem;
+    $small-font-size: .813rem;
+    $smaller-font-size: .75rem;
 
     /* font-weight */
     $font-medium: 500;
@@ -22,14 +22,14 @@
     $header-height: 3rem;
 
      /* margenes Bottom */
-    $mb-0-25: .4rem;
-    $mb-0-5: .8rem;
-    $mb-0-75: 1.2rem;
-    $mb-1: 1.5rem;
-    $mb-1-5: 2.4rem;
-    $mb-2: 3.2rem;
-    $mb-2-5: 4rem;
-    $mb-3: 4.8rem;
+    $mb-0-25: .25rem;
+    $mb-0-5: .5rem;
+    $mb-0-75: .75rem;
+    $mb-1: 1rem;
+    $mb-1-5: 1.5rem;
+    $mb-2: 2rem;
+    $mb-2-5: 2.5rem;
+    $mb-3: 3rem;
 
     /*========== z index ==========*/
     $z-tooltip: 10;
@@ -37,11 +37,19 @@
     $z-modal: 1000;
 
     /* Font size for large devices */
-
+    @media screen and (min-width: 968px) {
+        $big-font-size: 3rem;
+        $h1-font-size: 2.25rem;
+        $h2-font-size: 1.5rem;
+        $h3-font-size: 1.25rem;
+        $normal-font-size: 1rem;
+        $small-font-size: .875rem;
+        $smaller-font-size: .813rem;
+    }
 
  // COLORS 
     /* Change favorite color */
-    $hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    $hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - I like 210, 50, 0 ,10,20,30,40*/
 
     /* HSL color mode */
     $first-color: hsl($hue-color, 69%, 61%);
@@ -57,13 +65,17 @@
     $scroll-bar-color: hsl($hue-color, 12%, 90%);
     $scroll-thumb-color: hsl($hue-color, 12%, 80%);
 
-    $negro: #000000;
-    $blanco: #FFFFFF;
+    $black: #000000;
+    $white: #FFFFFF;
 
 
 
 // MEDIA QUERIES
-    $telefono: 480px;
+    /* $telefono: 480px;
     $tablet: 768px;
     $desktop: 1200px;
-    $desktopXL: 1400px;
+    $desktopXL: 1400px; */
+
+    $phone: 768px;
+    $tablet: 1200px;
+    $desktop: 1400px;

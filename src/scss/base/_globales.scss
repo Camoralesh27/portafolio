@@ -1,7 +1,7 @@
 @use 'variables' as v;
 
 html {
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
     box-sizing: border-box;
     scroll-padding-top: 0rem;
     scroll-behavior: smooth;
@@ -21,7 +21,7 @@ body {
     font-family: v.$fuente_principal;
     font-size: v.$normal-font-size;
     background-color: v.$body-color;
-    color: v.$negro;
+    color: v.$black;
 }
 
 h1, h2, h3 {
@@ -40,7 +40,7 @@ a {
 }
 
 p {
-    color: v.$negro;
+    color: v.$black;
     line-height: 1.5;
 }
 
@@ -52,7 +52,6 @@ h2 {
 }
 h3 {
     font-size: v.$h3-font-size;
-    text-align: center;
 }
 img {
     max-width: 100%;
@@ -85,14 +84,13 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-    width: 95%;
-    /* max-width: 120rem; */
-    max-width: 76.8rem;
-    margin: 0 auto;
+    max-width: 768px;
+    margin-left: v.$mb-1-5;
+    margin-right: v.$mb-1-5;
 }
 
 .grid {
     display: grid;
-    gap: 2.4rem;
+    gap: 1.5rem;
 }
 
