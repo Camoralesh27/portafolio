@@ -21,7 +21,7 @@ body {
     font-family: v.$fuente_principal;
     font-size: v.$normal-font-size;
     background-color: v.$body-color;
-    color: v.$black;
+    /* color: v.$black; */
 }
 
 h1, h2, h3 {
@@ -40,8 +40,8 @@ a {
 }
 
 p {
-    color: v.$black;
-    line-height: 1.5;
+    /* color: v.$black;
+    line-height: 1.5; */
 }
 
 h1 {
@@ -66,14 +66,14 @@ img {
     padding: 2rem 0 4rem;
 
     &__title {
-        font-size: var(--h1-font-size);
-        color: var(--title-color);
+        font-size: v.$h1-font-size;
+        color: v.$title-color;
     }
 
     &__subtitle {
         display: block;
-        font-size: var(--small-font-size);
-        margin-bottom: var(--mb-3);
+        font-size: v.$small-font-size;
+        margin-bottom: v.$mb-3;
     }
 
     &__title,
