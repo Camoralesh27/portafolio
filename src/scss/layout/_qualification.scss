@@ -1,0 +1,77 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.qualification {
+
+    &__tabs {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: v.$mb-2;
+    }
+
+    &__button {
+        font-size: v.$h3-font-size;
+        font-weight: v.$font-medium;
+        cursor: pointer;
+
+        &:hover {
+            color: v.$first-color;
+        }
+    }
+
+    &__icon {
+        font-size: 1.8rem;
+        margin-right: v.$mb-0-25;
+    }
+
+    &__data {
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        column-gap: 1.5rem;
+    }
+
+    &__title {
+        font-size: v.$normal-font-size;
+        font-weight: v.$font-medium;
+    }
+    
+    &__subtitle {
+        display: inline-block;
+        font-size: v.$small-font-size;
+        margin-bottom: v.$mb-1;
+    }
+
+    &__calendar {
+        font-size: v.$smaller-font-size;
+        color: v.$text-color-light;
+    }
+
+    &__rounder {
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: v.$first-color;
+        border-radius: 50%;
+    }
+
+    &__line {
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: v.$first-color;
+        transform: translate(6px, -7px);
+    }
+
+    & [data-content] {
+        display: none;
+    }
+
+    &__active[data-content] {
+        display: block;
+    }
+
+    &__button.qualification__active {
+        color: v.$first-color;
+    }
+    
+}
