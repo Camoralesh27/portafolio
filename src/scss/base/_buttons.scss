@@ -1,0 +1,42 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+/* ======= BUTTONS ======= */
+.button {
+    display: inline-block;
+    background-color: v.$first-color;
+    color: v.$white;
+    padding: 1rem;
+    border-radius: .5rem;   
+    font-weight: v.$font-medium;
+
+    &:hover{
+        background-color: v.$first-color-alt;
+    }
+
+    &__icon {
+        font-size: 1.25rem;
+        margin-left: v.$mb-0-5;
+        transition: 0.3s;
+    }
+
+    &--flex {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    &--small {
+        padding: .75rem 1rem;
+    }
+
+    &--link {
+        padding: 0;
+        background-color: transparent;
+        color: v.$first-color;
+        
+        &:hover {
+            background-color: transparent;
+            color: v.$first-color-alt;
+        }
+    }
+}
