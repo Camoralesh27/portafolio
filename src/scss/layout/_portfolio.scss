@@ -1,0 +1,62 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.portfolio {
+    &__container {
+        overflow: initial;
+    }
+
+    &__content {
+        padding: 0 1.5rem;
+    }
+
+    &__img {
+        width: 265px;
+        border-radius: .5rem;
+        justify-self: center;
+    }
+
+    &__title {
+        font-size: v.$h3-font-size;
+        margin-bottom: v.$mb-0-5;
+    }
+    &__description {
+        margin-bottom: v.$mb-0-75;
+    }
+    &__button:hover &__icon {
+        transform: translateX(.25rem);
+        
+    }
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-portfolio-icon {
+    font-size: 2rem;
+    color: v.$first-color;
+}
+
+.swiper-button-prev {
+    left: -0.5rem; 
+}
+
+.swiper-button-next {
+    right: -0.5rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+    bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: v.$first-color;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+    outline: none;
+}
