@@ -90,3 +90,42 @@
 .show-menu {
     bottom: 0;
 }
+
+/* Active link */
+.active-link {
+    color: v.$first-color;
+}
+
+/* Change background header */
+.scroll-header {
+    box-shadow: 0 -1px 4px rgb(0, 0, 0, .15);
+}
+
+/* SCROLL UP */
+.scrollup {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: v.$first-color;
+    opacity: .8;
+    /* padding: 0 .3rem; */
+    padding: .2rem .3rem;
+    border-radius: .4rem;
+    z-index: v.$z-tooltip;
+    transition: .4s;
+
+    &:hover {
+        background-color: v.$first-color-alt;
+    }
+
+    &__icon {
+        font-size: 1.5rem;
+        color: #FFF;
+    }
+}
+
+/* SHOW SCROLL */
+.show-scroll {
+    bottom: 5rem;
+}
+
