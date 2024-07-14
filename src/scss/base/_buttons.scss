@@ -20,6 +20,15 @@
         transition: 0.3s;
     }
 
+    &--white {
+        background-color: #FFF;
+        color: v.$first-color;
+
+        &:hover {
+            background-color: #FFF;
+        }
+    }
+
     &--flex {
         display: inline-flex;
         align-items: center;
