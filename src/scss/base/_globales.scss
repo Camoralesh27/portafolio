@@ -16,12 +16,12 @@ body {
     margin: 0 0 v.$header-height 0;
     font-family: v.$body-font;
     font-size: v.$normal-font-size;
-    background-color: v.$body-color;
-    color: v.$text-color;
+    background-color: var(--body-color);
+    color: var(--text-color);
 }
 
 h1, h2, h3, h4 {
-    color: v.$title-color;
+    color: var(--title-color);
     font-weight: v.$font-semi-bold;
     
     //reset again
@@ -74,4 +74,3 @@ img {
     display: grid;
     gap: 1.5rem;
 }
-

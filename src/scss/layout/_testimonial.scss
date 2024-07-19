@@ -27,7 +27,7 @@
 
     &__client {
         font-size: v.$small-font-size;
-        color: v.$text-color-light;
+        color: var(--text-color-light);
     }
 
     &__description {
@@ -35,7 +35,7 @@
     }
 
     &__icon-star {
-        color: v.$first-color;
+        color: var(--first-color);
     }
 }
 

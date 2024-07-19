@@ -19,10 +19,10 @@
 
         &-icon {
             font-size: 1.25rem;
-            color: v.$first-color;
+            color: var(--first-color);
 
             &:hover {
-                color: v.$first-color-alt;
+                color: var(--first-color-alt);
             }
         }
     }
@@ -46,7 +46,7 @@
 
     &__subtitle {
         font-size: v.$h3-font-size;
-        color: v.$text-color;
+        color: var(--text-color);
         font-weight: v.$font-medium;
         margin-bottom: v.$mb-0-75;
     }
@@ -64,7 +64,7 @@
 
         &-name {
             font-size: v.$small-font-size;
-            color: v.$title-color;
+            color: var(--title-color);
             font-weight: v.$font-medium;
             margin-right: v.$mb-0-25;
         }
@@ -75,7 +75,7 @@
     }
 
     &__scroll-button {
-        color: v.$first-color;
+        color: var(--first-color);
         transition: .3s;   
 
         &:hover {

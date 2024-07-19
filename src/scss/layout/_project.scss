@@ -5,7 +5,7 @@
     text-align: center;
 
     &__bg {
-        background-color: v.$first-color-second;
+        background-color: var(--first-color-second);
         padding-top: 3rem;
     }
 

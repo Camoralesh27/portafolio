@@ -4,14 +4,14 @@
 /* ======= BUTTONS ======= */
 .button {
     display: inline-block;
-    background-color: v.$first-color;
+    background-color: var(--first-color);
     color: v.$white;
     padding: 1rem;
     border-radius: .5rem;   
     font-weight: v.$font-medium;
 
     &:hover{
-        background-color: v.$first-color-alt;
+        background-color: var(--first-color-alt);
     }
 
     &__icon {
@@ -22,7 +22,7 @@
 
     &--white {
         background-color: #FFF;
-        color: v.$first-color;
+        color: var(--first-color);
 
         &:hover {
             background-color: #FFF;
@@ -41,11 +41,11 @@
     &--link {
         padding: 0;
         background-color: transparent;
-        color: v.$first-color;
+        color: var(--first-color);
         
         &:hover {
             background-color: transparent;
-            color: v.$first-color-alt;
+            color: var(--first-color-alt);
         }
     }
 }

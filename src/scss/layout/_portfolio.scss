@@ -36,7 +36,7 @@
 
 .swiper-portfolio-icon {
     font-size: 2rem;
-    color: v.$first-color;
+    color: var(--first-color);
 }
 
 .swiper-button-prev {
@@ -51,8 +51,14 @@
     bottom: -2.5rem;
 }
 
+// dark-theme ACTIVATED
+body.dark-theme .swiper-pagination-bullet {
+    background-color: white;
+}
+// .dark-theme 
+
 .swiper-pagination-bullet-active {
-    background-color: v.$first-color;
+    background-color: var(--first-color);
 }
 
 .swiper-button-prev,

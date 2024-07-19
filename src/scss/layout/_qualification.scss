@@ -15,7 +15,7 @@
         cursor: pointer;
 
         &:hover {
-            color: v.$first-color;
+            color: var(--first-color);
         }
     }
 
@@ -50,7 +50,7 @@
         display: inline-block;
         width: 13px;
         height: 13px;
-        background-color: v.$first-color;
+        background-color: var(--first-color);
         border-radius: 50%;
     }
 
@@ -58,7 +58,7 @@
         display: block;
         width: 1px;
         height: 100%;
-        background-color: v.$first-color;
+        background-color: var(--first-color);
         transform: translate(6px, -7px);
     }
 
@@ -71,7 +71,7 @@
     }
 
     &__button.qualification__active {
-        color: v.$first-color;
+        color: var(--first-color);
     }
     
 }

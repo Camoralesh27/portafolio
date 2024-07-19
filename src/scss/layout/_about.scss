@@ -23,7 +23,7 @@
         &-title {
             font-size: v.$h2-font-size;
             font-weight: v.$font-semi-bold;
-            color: v.$title-color;
+            color: var(--title-color);
         }
 
         &-name {

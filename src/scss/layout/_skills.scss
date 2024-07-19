@@ -18,7 +18,7 @@
     &__icon,
     &__arrow {
         font-size: 2rem;
-        color: v.$first-color;
+        color: var(--first-color);
     }
 
     &__icon {
@@ -31,7 +31,7 @@
 
     &__subtitle {
         font-size: v.$small-font-size;
-        color: v.$text-color-light;
+        color: var(--text-color-light);
     }
 
     &__arrow {
@@ -62,12 +62,12 @@
     }
 
     &__bar {
-        background-color: v.$first-color-lighter;
+        background-color: var(--first-color-lighter);
     }
 
     &__percentage {
         display: block;
-        background-color: v.$first-color;
+        background-color: var(--first-color);
     }
 
     &__html {

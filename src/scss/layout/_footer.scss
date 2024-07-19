@@ -9,7 +9,7 @@
     }
 
     &__bg {
-        background-color: v.$first-color-second;
+        background-color: var(--first-color-second);
         padding: 2rem 0 3rem;
     }
 
@@ -31,7 +31,7 @@
     &__link {
 
         &:hover {
-            color: v.$first-color-lighter;
+            color: var(--first-color-lighter);
         }
     }
 
@@ -40,7 +40,7 @@
         margin-right: v.$mb-1-5;
 
         &:hover {
-            color: v.$first-color-lighter;
+            color: var(--first-color-lighter);
         }
     }
 

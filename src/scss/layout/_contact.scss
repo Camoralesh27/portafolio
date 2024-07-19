@@ -14,7 +14,7 @@
 
     &__icon {
         font-size: 2rem;
-        color: v.$first-color;
+        color: var(--first-color);
         margin-right: v.$mb-0-75;
     }
 
@@ -25,24 +25,24 @@
 
     &__subtitle {
         font-size: v.$small-font-size;
-        color: v.$text-color-light;
+        color: var(--text-color-light);
     }
 
     &__content {
-        background-color: v.$input-color;
+        background-color: var(input-color);
         border-radius: .5rem;
         padding: .75rem 1rem .25rem;
     }
 
     &__label {
         font-size: v.$smaller-font-size;
-        color: v.$title-color;
+        color: var(--title-color);
     }
 
     &__input {
         width: 100%;
-        background-color: v.$input-color;
-        color: v.$text-color;
+        background-color: var(--input-color);
+        color: var(--text-color);
         font-family: v.$body-font;
         font-size: v.$normal-font-size;
         border: none;
