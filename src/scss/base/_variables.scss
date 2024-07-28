@@ -103,7 +103,9 @@
     $text-color-DarkTheme: hsl($hue-color, 8%, 75%);
     $input-color-DarkTheme: hsl($hue-color, 29%, 16%);
     $body-color-DarkTheme: hsl($hue-color, 28%, 12%);
-    $container-color-DarkTheme: hsl($hue-color, 29%,16%);   
+    $container-color-DarkTheme: hsl($hue-color, 29%,16%); 
+    $scroll-bar-color: hsl($hue-color, 12%, 48%);
+    $scroll-thumb-color: hsl($hue-color, 12%, 36%);  
     
     // DARK THEME
     body.dark-theme {
@@ -113,6 +115,8 @@
         --input-color: #{$input-color-DarkTheme};
         --body-color: #{$body-color-DarkTheme};
         --container-color: #{$container-color-DarkTheme};
+        --scroll-bar-color: #{$scroll-bar-color};
+        --scroll-thumb-color: #{$scroll-thumb-color};
     }
 
     /* @media(prefers-color-scheme: dark) {
