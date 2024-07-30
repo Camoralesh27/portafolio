@@ -62,11 +62,13 @@
 
  // COLORS 
     /* Change favorite color */
-    $hue-color: 0; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - I like 210, 50, 0 ,10,20,30,40*/
+    $hue-color: 200; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - I like 210, 50, 0 ,10,20,30,40*/
 
     /* HSL color mode */
-    $first-color: hsl($hue-color, 69%, 61%);
-    $first-color-second: hsl($hue-color, 69%, 61%);
+    /* $first-color: hsl($hue-color, 69%, 61%);
+    $first-color-second: hsl($hue-color, 69%, 61%); */
+    $first-color: hsl($hue-color, 49%, 51%);
+    $first-color-second: hsl($hue-color, 49%, 51%);
     $first-color-alt: hsl($hue-color, 57%, 53%);
     $first-color-lighter: hsl($hue-color, 92%, 85%);
     $title-color: hsl($hue-color, 8%, 15%);

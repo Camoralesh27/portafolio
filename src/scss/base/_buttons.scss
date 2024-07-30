@@ -32,6 +32,14 @@
     &--flex {
         display: inline-flex;
         align-items: center;
+        border: none;
+
+        &-red {
+            background-color: rgb(250, 107, 107);
+            &:hover {
+                background-color: rgb(255, 120, 120);
+            }
+        }
     }
 
     &--small {

@@ -92,6 +92,6 @@ export function dev() {
 }
 
 /* export default series (crop, js, css, imagenes, dev) */
-export default series ( js, css, dev)
+export default series ( js, css, imagenes, dev)
 
 

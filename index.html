@@ -86,11 +86,11 @@
                 <div class="home__content grid">
                     <div class="home__social">
                         <a href="https://www.linkedin.com/in/cristhian-morales-b36a58226" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
+                            <i class="uil uil-linkedin"></i>
                         </a>
                         
-                        <a href="#" target="_blank" class="home__social-icon">
-                            <i class="uil uil-dribbble"></i>
+                        <a href="https://www.instagram.com/cristhian.coding_and_fpv" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
                         </a>
                         
                         <a href="https://github.com/Camoralesh27" target="_blank" class="home__social-icon">
@@ -121,7 +121,7 @@
 
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Cristhian</h1>
-                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <h3 class="home__subtitle">Mechanical Engineer | FrontEnd Developer | FPV pilot</h3>
                         <p class="home__description">High level experience in web design and develpment knowledge, producing quality work.</p>
                         
                         <a href="#contact" class="button button--flex">
@@ -151,31 +151,33 @@
                 <img src="build/img/about.jpg" alt="about img" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and UI / UX design, delivering quality work.</p>
+                    <p class="about__description">I work in the construction industry, specializing in earthworks and demolitions, as well as capturing orthophotos using drones. Additionally, I freelance as a coder and responsive web designer, utilizing UI/UX design principles to deliver high-quality work.</p>
     
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">08+</span>
+                            <span class="about__info-title">03+</span>
                             <span class="about__info-name">Years <br> experience</span>
                         </div>
     
                         <div>
-                            <span class="about__info-title">20+</span>
+                            <span class="about__info-title">39+</span>
                             <span class="about__info-name">Completed <br> project</span>
                         </div>
     
                         <div>
-                            <span class="about__info-title">05+</span>
+                            <span class="about__info-title">02+</span>
                             <span class="about__info-name">Companies <br> worked</span>
                         </div>
                     </div> <!-- .about__info -->
 
 
-                    <div class="about__buttons">
+                    <!-- <div class="about__buttons">
                         <a download="" href="src/pdf/Alexa-Cv.pdf" class="button button--flex">
                             Download CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
-                    </div>
+                    </div> -->
+
+
                 </div> <!-- .about__data -->
             </div> <!-- .about__container -->
         </section>
@@ -753,7 +755,7 @@
                         </a>
                     </div> <!-- .project__data -->
 
-                    <img src="build/img/project.png" alt="imagen portfolio" class="project__img">
+                    <img src="build/img/project.jpg" alt="imagen portfolio" class="project__img">
                 </div>
             </div>
         </section>
@@ -856,8 +858,8 @@
                         <i class="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Call me</h3>
-                            <span class="contact__subtitle">999-777-666</span>
+                            <h3 class="contact__title">Call me.</h3>
+                            <span class="contact__subtitle"><a class="contact__tel" href="tel:+52 1 614 384 0053">(614) 384 0053</a></span>
                         </div>
                     </div> <!-- .contact__information -->
 
@@ -866,8 +868,8 @@
                         <i class="uil uil-envelope contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">Camoralesh27@gmail.com</span>
+                            <h3 class="contact__title">Email.</h3>
+                            <span class="contact__subtitle"><a class="contact__mail" href="mailto:Camoralesh27@gmail.com">camoralesh27@gmail.com</a></span>
                         </div>
                     </div> <!-- .contact__information -->
 
@@ -876,40 +878,45 @@
                         <i class="uil uil-map-marker contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Location</h3>
+                            <h3 class="contact__title">Location.</h3>
                             <span class="contact__subtitle">Chihuahua, Chih. México</span>
                         </div>
                     </div> <!-- .contact__information -->
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="" mathod="post" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Name</label>
-                            <input name="name" type="text" class="contact__input">
+                            <input id="name" name="name" type="text" class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="email" class="contact__label">Email</label>
-                            <input name="email" type="email" class="contact__input">
+                            <input id="email" name="email" type="email" class="contact__input">
                         </div>
                     </div> <!-- .contact__inputs -->
 
                     <div class="contact__content">
                         <label for="project" class="contact__label">Project</label>
-                        <input name=project" type="text" class="contact__input">
+                        <input id="project" name=project" type="text" class="contact__input">
                     </div>
 
                     <div class="contact__content">
                         <label for="message" class="contact__label">Message</label>
-                        <textarea name="message" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea id="message" name="message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button onclick="sendToWhatsapp()" type="submit" class="button button--flex">
                             Send Message 
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
+
+                        <button type="reset" class="button button--flex button--flex-red">
+                            Reset 
+                            <i class="uil uil-history-alt button__icon"></i>
+                        </button>
                     </div>
                 </form>
 
@@ -941,16 +948,16 @@
                 </ul><!-- .footer__links -->
 
                 <div class="footer__socials">
-                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook-f"></i>
+                    <a href="https://www.linkedin.com/in/cristhian-morales-b36a58226" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
                     </a>
 
-                    <a href="https://www.instragram.com/" target="_blank" class="footer__social">
+                    <a href="https://www.instagram.com/cristhian_code" target="_blank" class="footer__social">
                         <i class="uil uil-instagram"></i>
                     </a>
 
-                    <a href="https://twitter.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
+                    <a href="https://github.com/Camoralesh27" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
                     </a>
                 </div>
             </div><!-- .footer__container -->

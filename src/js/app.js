@@ -217,3 +217,23 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+
+/*==================== FORM TO WHATSAPP ====================*/
+function sendToWhatsapp() {
+    let number = "+526143840053"
+
+    let name = document.querySelector('#name').value;
+    let email = document.querySelector('#email').value;
+    let project = document.querySelector('#project').value;
+    let message = document.querySelector('#message').value;
+
+    let url = `https://wa.me/${number}?text=
+    Name : ${name}%0a
+    Email : ${email}%0a
+    Project: ${project}%0a
+    Message : ${message}%0a%0a`;
+    
+    window.open(url, '_blank').focus();
+}
