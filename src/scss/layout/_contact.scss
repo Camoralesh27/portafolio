@@ -55,5 +55,10 @@
     &__mail {
         color: var(--text-color-light);
     }
+
+    &__legend {
+        font-style: italic;
+        font-size: v.$small-font-size;
+    }
 }
 
