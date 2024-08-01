@@ -80,6 +80,7 @@ function procesarImagenes(file, outputSubDir) {
     const outputFileAvif = path.join(outputSubDir, `${baseName}.avif`)
 
     const options = { quality: 80 }
+    sharp(file).png(options).toFile(outputFile)
     sharp(file).jpeg(options).toFile(outputFile)
     sharp(file).webp(options).toFile(outputFileWebp)
     sharp(file).avif().toFile(outputFileAvif)

@@ -237,3 +237,134 @@ function sendToWhatsapp() {
     
     window.open(url, '_blank').focus();
 }
+
+
+
+/*==================== FORM VALIDATION ====================*/
+document.addEventListener('DOMContentLoaded', function() {
+    const email = {
+        name: '',
+        email: '',
+        /* project: '', */
+        message: '' 
+    }
+
+    //select interface items 
+    const inputName = document.querySelector('#name');
+    const inputEmail = document.querySelector('#email');
+    const inputProject = document.querySelector('#project');
+    const inputMessage = document.querySelector('#message');
+    const form = document.querySelector('#form');
+    const btnSubmit = document.querySelector('#form button[type="submit"]');
+    
+    console.log(inputProject);
+    console.log(email);
+
+    //Assign events
+    inputName.addEventListener('input', validar);
+    inputEmail.addEventListener('input', validar);
+    inputProject.addEventListener('input', validar);
+    inputMessage.addEventListener('input', validar);
+
+    form.addEventListener('submit', enviarEmail);
+
+
+    //Functions
+    function enviarEmail(e) {
+        e.preventDefault();
+
+        setTimeout(() => {
+
+            resetFormulario();
+
+            //Crear una alerta
+            const alertaExito = document.createElement('P');
+            alertaExito.classList.add('succed');
+
+            alertaExito.textContent = 'Mensaje enviado correctamente'
+
+            formulario.appendChild(alertaExito);
+
+            setTimeout(() => {
+                alertaExito.remove();
+            }, 3000);
+        }, 2000)
+    }
+    
+    function validar(e) {
+        if(e.target.value.trim() === '') {
+            mostrarAlerta(`The ${e.target.id} field is required.`, e.target.parentElement);
+            email[e.target.name] = '';
+            comprobarEmail();
+            return;
+        } 
+
+        if(e.target.id === 'email' && !validarEmail(e.target.value)) {
+            mostrarAlerta('Invalid email.', e.target.parentElement)
+            email[e.target.name] = '';
+            comprobarEmail();
+            return;
+        };
+
+
+        limpiarAlerta(e.target.parentElement);
+
+        //Asignar los valores
+        email[e.target.name] = e.target.value.trim().toLowerCase();
+        
+        //Comprobar el objeto de email
+        comprobarEmail();
+
+        console.log(email);
+    }
+
+    function mostrarAlerta(mensaje, referencia) { //*listo
+
+        limpiarAlerta(referencia);
+
+        //Generar 'alerta' en HTML 
+        const error = document.createElement('P');
+        error.textContent = mensaje;
+        error.classList.add('contact__alert');
+
+        //Inyectar 'error' a formulario
+        referencia.appendChild(error);
+    }
+
+    function limpiarAlerta(referencia){ //*listo
+        //Comprueba si ya existe una alerta
+        const alerta = referencia.querySelector('.contact__alert');
+        if(alerta) {
+            alerta.remove();
+        }
+    }
+
+    function comprobarEmail() { //*listo
+        if(Object.values(email).includes('')) {
+            btnSubmit.classList.add('opacity-50')
+            btnSubmit.disabled = true;
+            return;
+        } 
+        
+        btnSubmit.classList.remove('opacity-50')
+        btnSubmit.disabled = false;
+    }
+
+    function resetFormulario() { //*listo
+        //reiciar el objeto
+        email.name = '';
+        email.email = '';
+        email.project = '';
+        email.message = '';
+        
+        form.reset();
+        comprobarEmail();
+    }
+
+    function validarEmail(email) {
+        //'expresion regular' para email en JS
+        const regex =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/ 
+        const resultado = regex.test(email)
+        return resultado;
+    }
+});

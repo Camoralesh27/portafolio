@@ -60,5 +60,32 @@
         font-style: italic;
         font-size: v.$small-font-size;
     }
+
+    &__alert {
+        background-color: #fa6b6b;
+        color: #FFF;
+        padding: .5rem;
+        text-align: center;
+        font-size: v.$small-font-size;
+        border-radius: .2rem;
+    }
 }
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.succed {
+    background-color: rgb(132, 243, 132);
+    color: #FFF;
+    padding: .5rem;
+    text-align: center;
+    margin: .1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: v.$small-font-size;
+    border-radius: .2rem;
+}
+
+
 
