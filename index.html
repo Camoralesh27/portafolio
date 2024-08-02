@@ -745,7 +745,8 @@
                 <div class="project__container container grid">
                     <div class="project__data">
                         <h2 class="project__title">You have a new project</h2>
-                        <p class="project__description">Contac me now and get a 30% discount on your new project.</p>
+                        <p class="project__description">Contact me now and get a 15% discount on your new project.
+                        </p>
                         <a href="#contact" class="button button--flex button--white">
                             Contact me
                             <i class="uil uil-message project__icon button__icon"></i>
@@ -883,27 +884,36 @@
 
                 <form action="" mathod="post" class="contact__form grid" id="form">
 
-                    <p class="contact__legend">*Required fields.</p>
+                    <p class="contact__legend">*Please complete the required fields, and the send button will be activated.</p>
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="name" class="contact__label">*Name</label>
-                            <input id="name" name="name" type="text" class="contact__input" required>
+                            <label for="name" class="contact__label">Name</label>
+                            <input id="name" name="name" type="text" class="contact__input"placeholder="Your name">
                         </div>
 
                         <div class="contact__content">
-                            <label for="email" class="contact__label">*Email</label>
-                            <input id="email" name="email" type="email" class="contact__input">
+                            <label for="email" class="contact__label" >Email</label>
+                            <input id="email" name="email" type="email" class="contact__input"
+                            placeholder="Your email">
                         </div>
                     </div> <!-- .contact__inputs -->
 
                     <div class="contact__content">
-                        <label for="project" class="contact__label">*Project</label>
-                        <input id="project" name=project" type="text" class="contact__input">
+                        <label for="project" class="contact__label">Project</label>
+                        <!-- <input id="project" name="project" type="text" class="contact__input"> -->
+
+                        <select name="project" class="contact__input" id="project">
+                            <option value="" selected disabled>-- Select an option --</option>
+                            <option value="Landing page">Landing page</option>
+                            <option value="Web page">Web page</option>
+                            <option value="Other">Other</option>
+
+                        </select>
                     </div>
 
                     <div class="contact__content">
-                        <label for="message" class="contact__label">*Message</label>
-                        <textarea id="message" name="message" cols="0" rows="7" class="contact__input" required></textarea>
+                        <label for="message" class="contact__label">Description</label>
+                        <textarea id="message" name="message" cols="0" rows="7" class="contact__input" placeholder="Your project description"></textarea>
                     </div>
 
                     <div>

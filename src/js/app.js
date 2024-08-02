@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const email = {
         name: '',
         email: '',
-        /* project: '', */
+        project: '',
         message: '' 
     }
 
