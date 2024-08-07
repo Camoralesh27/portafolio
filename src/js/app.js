@@ -256,9 +256,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputMessage = document.querySelector('#message');
     const form = document.querySelector('#form');
     const btnSubmit = document.querySelector('#form button[type="submit"]');
-    
-    console.log(inputProject);
-    console.log(email);
 
     //Assign events
     inputName.addEventListener('input', validar);
@@ -314,8 +311,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         //Comprobar el objeto de email
         comprobarEmail();
-
-        console.log(email);
     }
 
     function mostrarAlerta(mensaje, referencia) { //*listo
@@ -368,3 +363,37 @@ document.addEventListener('DOMContentLoaded', function() {
         return resultado;
     }
 });
+
+
+
+// Cambiar Idioma
+const flagsElement = document.querySelector('#flags');
+const textsToChange = document.querySelectorAll('[data-section]');
+
+//Escuchar el cambio de checkbox y le cambia el data-language
+flagsElement.addEventListener('change',(e)=> {
+    if (e.target.checked) {
+        flagsElement.setAttribute('data-language','esp')
+        /* console.log(e.target.dataset.language); */
+        changeLanguages(e.target.dataset.language)
+    } else {
+        flagsElement.setAttribute('data-language','eng')
+        /* console.log(e.target.dataset.language); */
+        changeLanguages(e.target.dataset.language)
+    }
+});
+
+
+//Toma el json y modifica el idioma
+const changeLanguages = async language => {
+    const requestJson = await fetch(`./build/languages/${language}.json`);
+    const texts = await requestJson.json();
+
+    for( const textToChange of textsToChange) {
+        const section = textToChange.dataset.section
+
+        const value = textToChange.dataset.value
+
+        textToChange.innerHTML = texts[section][value]
+    }
+}

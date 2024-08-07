@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- -- Titulo -- -->
-    <title>My portfolio</title>
+    <title data-section="title" data-value="title">My portfolio</title>
 
     <!-- -- Iconos -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -28,38 +28,38 @@
             <div id="nav-menu" class="nav__menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i>Home
+                        <a href="#home" class="nav__link active-link" >
+                            <i class="uil uil-estate nav__icon"></i><p data-section="nav" data-value="home">Home</p>
                         </a>
                     </li> 
 
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i>About me
+                            <i class="uil uil-user nav__icon"></i><p data-section="nav" data-value="about">About me</p>
                         </a>
                     </li> 
 
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                            <i class="uil uil-file-alt nav__icon"></i><p data-section="nav" data-value="skills">Skills</p>
                         </a>
                     </li> 
 
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase nav__icon"></i>Services
+                            <i class="uil uil-briefcase nav__icon"></i><p data-section="nav" data-value="services">Services</p>
                         </a>
                     </li> 
 
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                            <i class="uil uil-scenery nav__icon"></i><p data-section="nav" data-value="portfolio">Portfolio</p>
                         </a>
                     </li> 
 
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i>Contact me
+                            <i class="uil uil-message nav__icon"></i><p data-section="nav" data-value="contact">Contact me</p>
                         </a>
                     </li> 
                 </ul>
@@ -140,12 +140,12 @@
 
 
                     <div class="home__data">
-                        <h1 class="home__title">Hi, I'm Cristhian</h1>
-                        <h3 class="home__subtitle">Mechanical Engineer | FrontEnd Developer | FPV pilot</h3>
-                        <p class="home__description">With extensive experience in web design and a strong understanding of web development, I consistently deliver high-quality work.</p>
+                        <h1 class="home__title" data-section="home" data-value="title">Hi, I'm Cristhian</h1>
+                        <h3 class="home__subtitle" data-section="home" data-value="subtitle">Mechanical Engineer | FrontEnd Developer | FPV pilot</h3>
+                        <p class="home__description" data-section="home" data-value="description">With extensive experience in web design and a strong understanding of web development, I consistently deliver high-quality work.</p>
                         
-                        <a href="#contact" class="button button--flex">
-                            Contact me<i class="uil uil-message button__icon"></i>
+                        <a href="#contact" class="button button--flex" >
+                            <p data-section="home" data-value="button">Contact me</p><i class="uil uil-message button__icon"></i>
                         </a>
                     </div> <!-- .home__data -->
                 </div> <!-- .home__content -->
@@ -154,7 +154,7 @@
                 <div class="home__scroll">
                     <a href="#about" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll down</span>
+                        <span class="home__scroll-name" data-section="home" data-value="scroll">Scroll down</span>
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
                     </a>
                 </div> <!-- .home__scroll -->
@@ -164,29 +164,29 @@
         
         <!-- ======= about ======= -->
         <section id="about" class="about section">
-            <h2 class="section__title">About Me</h2>
-            <span class="section__subtitle">My introduction</span>
+            <h2 class="section__title" data-section="about" data-value="title">About Me</h2>
+            <span class="section__subtitle" data-section="about" data-value="subtitle">My introduction</span>
 
             <div class="about__container container grid">
                 <img src="build/img/about.jpg" alt="about img" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">I work in the construction industry, specializing in earthworks and demolitions, as well as capturing orthophotos using drones. Additionally, I freelance as a coder and responsive web designer, utilizing UI/UX design principles to deliver high-quality work.</p>
+                    <p class="about__description" data-section="about" data-value="description">I work in the construction industry, specializing in earthworks and demolitions, as well as capturing orthophotos using drones. Additionally, I freelance as a coder and responsive web designer, utilizing UI/UX design principles to deliver high-quality work.</p>
     
                     <div class="about__info">
                         <div>
                             <span class="about__info-title">03+</span>
-                            <span class="about__info-name">Years <br> experience</span>
+                            <span class="about__info-name" data-section="about" data-value="info1">Years <br> experience</span>
                         </div>
     
                         <div>
                             <span class="about__info-title">39+</span>
-                            <span class="about__info-name">Completed <br> project</span>
+                            <span class="about__info-name" data-section="about" data-value="info2">Completed <br> project</span>
                         </div>
     
                         <div>
                             <span class="about__info-title">02+</span>
-                            <span class="about__info-name">Companies <br> worked</span>
+                            <span class="about__info-name" data-section="about" data-value="info3">Companies <br> worked</span>
                         </div>
                     </div> <!-- .about__info -->
 

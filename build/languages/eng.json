@@ -1,0 +1,28 @@
+{
+    "title" : {
+        "title" : "My portfolio"
+    },
+    "nav" : {
+        "home" : "Home",
+        "about": "About me",
+        "skills": "Skills",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact me"
+    },
+    "home" : {
+        "title" : "Hi, I'm Cristhian",
+        "subtitle" : "Mechanical Engineer | FrontEnd Developer | FPV pilot drones",
+        "description" : "With extensive experience in web design and a strong understanding of web development, I consistently deliver high-quality work.",
+        "button" : "Contact me",
+        "scroll" : "Scroll down"
+    },
+    "about" : {
+        "title" : "About Me",
+        "subtitle" : "My introduction",
+        "description" : "I work in the construction industry, specializing in earthworks and demolitions, as well as capturing orthophotos using drones. Additionally, I freelance as a coder and responsive web designer, utilizing UI/UX design principles to deliver high-quality work.",
+        "info1" : "Years <br> experience",
+        "info2" : "Completed <br> project",
+        "info3" : "Companies <br> worked"
+    }
+}

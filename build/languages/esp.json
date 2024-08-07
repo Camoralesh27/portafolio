@@ -1,0 +1,28 @@
+{
+    "title" : {
+        "title" : "Mi portafolio"
+    },
+    "nav" : {
+        "home" : "Inicio",
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "services": "Servicios",
+        "portfolio": "Portafolio",
+        "contact": "Contactame"
+    },
+    "home" : {
+        "title" : "Hola, soy Cristhian",
+        "subtitle" : "Ingeniero Mecánico | Desarrollador FrontEnd | Piloto FPV ",
+        "description" : "Con amplia experiencia en diseño web y un sólido entendimiento del desarrollo web, entrego constantemente trabajo de alta calidad.",
+        "button" : "Contactame",
+        "scroll" : "Desplazar hacia abajo"
+    },
+    "about" : {
+        "title" : "Sobre mi",
+        "subtitle" : "Mi introducción",
+        "description" : "Trabajo en la industria de la construcción, especializándome en movimientos de tierra y demoliciones, así como en la captura de ortofotos utilizando drones. Además, trabajo como freelance en programación y diseño web responsivo, aplicando principios de diseño UI/UX para entregar trabajos de alta calidad.",
+        "info1" : "Años de<br> experiencia",
+        "info2" : "Proyectos<br> completados",
+        "info3" : "Trabajos para<br> compañias"
+    }
+}
