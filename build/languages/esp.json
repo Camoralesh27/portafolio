@@ -24,5 +24,21 @@
         "info1" : "Años de<br> experiencia",
         "info2" : "Proyectos<br> completados",
         "info3" : "Trabajos para<br> compañias"
+    },
+    "skills" : {
+        "title" : "Habilidades",
+        "subtitle" : "Mi nivel tecnico"
+    },
+    "qualification" : {
+        "title" : "Experiencia",
+        "subtitle" : "Mi aventura personal",
+        "education" : "Educación",
+        "work" : "Trabajo",
+        "education1_title" : "Ingeniero Mecánico",
+        "education2_title" : "Desarrollo Web",
+        "education3_title" : "Desarrollo Web",
+        "work1_title" : "Prácticas de Mecánica",
+        "work2_title" : "Terracerías y Demoliciones",
+        "work3_title" : "Desarrollador Web Independiente"
     }
 }

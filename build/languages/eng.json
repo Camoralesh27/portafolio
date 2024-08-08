@@ -24,5 +24,21 @@
         "info1" : "Years <br> experience",
         "info2" : "Completed <br> project",
         "info3" : "Companies <br> worked"
+    },
+    "skills" : {
+        "title" : "Skills",
+        "subtitle" : "My technical level"
+    },
+    "qualification" : {
+        "title" : "Background",
+        "subtitle" : "My personal journey",
+        "education" : "Education",
+        "work" : "Work",
+        "education1_title" : "Mechanical Enginner",
+        "education2_title" : "Web Development",
+        "education3_title" : "Web Development",
+        "work1_title" : "Mechanic Practitioner",
+        "work2_title" : "Earthworks and demolitions",
+        "work3_title" : "Freelance WebDeveloper"
     }
 }
