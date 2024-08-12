@@ -87,9 +87,11 @@ tabs.forEach(tab => {
 const modalViews = document.querySelectorAll('.services__modal');
 const modalBtns = document.querySelectorAll('.services__button');
 const modalCloses = document.querySelectorAll('.services__modal-close');
+const body = document.querySelector('body');
 
 let modal = function(modalClick){
     modalViews[modalClick].classList.add('active-modal');
+    body.classList.add('overflow-hidden');
 }
 
 modalBtns.forEach((modalBtn, i) => {
@@ -102,6 +104,7 @@ modalCloses.forEach((modalClose) => {
     modalClose.addEventListener('click', () => {
         modalViews.forEach((modalView) => {
             modalView.classList.remove('active-modal');
+            body.classList.remove('overflow-hidden');
         })
     })
 })

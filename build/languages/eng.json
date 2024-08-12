@@ -12,7 +12,7 @@
     },
     "home" : {
         "title" : "Hi, I'm Cristhian",
-        "subtitle" : "Mechanical Engineer | FrontEnd Developer | FPV pilot drones",
+        "subtitle" : "Mechanical Engineer | FrontEnd Developer",
         "description" : "With extensive experience in web design and a strong understanding of web development, I consistently deliver high-quality work.",
         "button" : "Contact me",
         "scroll" : "Scroll down"
@@ -40,5 +40,40 @@
         "work1_title" : "Mechanic Practitioner",
         "work2_title" : "Earthworks and demolitions",
         "work3_title" : "Freelance WebDeveloper"
+    },
+    "services" : {
+        "title" : "Services",
+        "subtitle" : "What I offer",
+        "button" : "View More",
+        "section1" : "UI/UX <br> Design",
+        "section2" : "Frontend <br> Developer",
+        "section3" : "Other <br> Services",
+        "description1" : "Define functionality (Static or dynamic website).",
+        "description2" : "Design a landing page or website for your brand." ,
+        "description3" : "Choose a domain that represents your brand.",
+        "description4" : "Code the design.",
+        "description5" : "Creat dynamic interactions for your static or dynamic webpage or landing page.",
+        "description6" : "Earthwork and demolition services in Chihuahua, Chihuahua, Mexico.",
+        "description7" : "Orthophotos with dron.",
+        "description8" : "Drone photografy and video."
+    },
+    "portfolio" : {
+        "title" : "Portfolio",
+        "subtitle" : "Most recent FrontEnd work",
+        "description1" : "Website for a Coffee Shop adaptable to all devices.",
+        "description2" : "Guitar store Website adaptable to all devices.",
+        "description3" : "Techno & EDM Festival Website adaptable to all devices."
+    },
+    "project" : {
+        "title" : "You have a new project in mind",
+        "description" : "Contact me now and get a 15% discount on your new project.",
+        "button" : "Contact me"
+    },
+    "testimonial" : {
+        "title" : "Testimonial",
+        "subtitle" : "What customers say",
+        "tag" : "Client",
+        "testimonial1" : "Excellent service! I loved the design of my website. The entire process, from the initial concept to the finished product, was a great experience. Sharing the site with my clients has been rewarding, and it helps parents feel more comfortable and confident in using it.",
+        "testimonial2" : "I'm very grateful for my new website! It looks fantastic, and I can now showcase my portfolio to my clients, helping them feel more confident in the quality of my services."
     }
 }

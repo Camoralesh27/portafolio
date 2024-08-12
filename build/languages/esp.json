@@ -12,7 +12,7 @@
     },
     "home" : {
         "title" : "Hola, soy Cristhian",
-        "subtitle" : "Ingeniero Mecánico | Desarrollador FrontEnd | Piloto FPV ",
+        "subtitle" : "Ingeniero Mecánico | Desarrollador FrontEnd",
         "description" : "Con amplia experiencia en diseño web y un sólido entendimiento del desarrollo web, entrego constantemente trabajo de alta calidad.",
         "button" : "Contactame",
         "scroll" : "Desplazar hacia abajo"
@@ -40,5 +40,40 @@
         "work1_title" : "Prácticas de Mecánica",
         "work2_title" : "Terracerías y Demoliciones",
         "work3_title" : "Desarrollador Web Independiente"
+    },
+    "services" : {
+        "title" : "Servicios",
+        "subtitle" : "Lo que ofrezco",
+        "button" : "Ver Más",
+        "section1" : "Diseño <br> UI/UX",
+        "section2" : "Desarrollo <br> FrontEnd",
+        "section3" : "Otros <br> Servicios",
+        "description1" : "Definir funcionalidad (Sitio Web estático ó dinámico).",
+        "description2" : "Diseñar una landing page ó website para tú marca." ,
+        "description3" : "Elegir un dominio que represente a tú marca.",
+        "description4" : "Codificar el diseño.",
+        "description5" : "Crear interacciones dinámicas para tu website ó landig page.",
+        "description6" : "Servicios de terracerías y demoliciones en Chihuahua, Chihuahua, México.",
+        "description7" : "Ortofotos con dron.",
+        "description8" : "Fotografía y video con dron."
+    },
+    "portfolio" : {
+        "title" : "Portafolio",
+        "subtitle" : "Trabajos FrontEnd más recientesMost",
+        "description1" : "Sitio Web para una tienda de Café adaptable a todos los dispositivos.",
+        "description2" : "Sitio Web de tienda de guitarras adaptable a todos los dispositivos.",
+        "description3" : "Sitio Web Techno & EDM Festival adaptable a todos los dispositivos."
+    },
+    "project" : {
+        "title" : "Tú tienes un proyecto en mente.",
+        "description" : "Contactame y obten un 15% de descuento en tu nuevo proyecto.",
+        "button" : "Contactame"
+    },
+    "testimonial" : {
+        "title" : "Testimoniales",
+        "subtitle" : "Lo que los clientes dicen",
+        "tag" : "Cliente",
+        "testimonial1" : "¡Excelente servicio! Me encantó el diseño de mi sitio web. Todo el proceso, desde el concepto inicial hasta el producto final, fue una gran experiencia. Compartir el sitio con mis clientes ha sido gratificante y ayuda a los padres a sentirse más cómodos y seguros al usarlo.",
+        "testimonial2" : "¡Estoy muy agradecida por mi nuevo sitio web! Se ve fantástico y ahora puedo mostrar mi portafolio a mis clientes, lo que les ayuda a sentirse más seguros de la calidad de mis servicios."
     }
 }
