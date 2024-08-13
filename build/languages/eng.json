@@ -75,5 +75,30 @@
         "tag" : "Client",
         "testimonial1" : "Excellent service! I loved the design of my website. The entire process, from the initial concept to the finished product, was a great experience. Sharing the site with my clients has been rewarding, and it helps parents feel more comfortable and confident in using it.",
         "testimonial2" : "I'm very grateful for my new website! It looks fantastic, and I can now showcase my portfolio to my clients, helping them feel more confident in the quality of my services."
+    }, 
+    "contact" : {
+        "title" : "Contact me",
+        "subtitle" : "Get in touch",
+        "call" : "Call me.",
+        "location" : "Location.",
+        "note1" : "Submit this form, and you’ll be automatically redirected to <b>WhatsApp</b> with your completed form details.",
+        "note2" : "*Please complete the required fields, and the send button will be activated.",
+        "name" : "Name",
+        "email" : "Email",
+        "project" : "Project",
+        "description" : "Description",
+        "option1" : "--Select an option--",
+        "option2" : "Landing page",
+        "option3" : "Web site",
+        "option4" : "Other",
+        "button1" : "Send Message",
+        "button2" : "Reset"
+    },
+    "footer" : {
+        "subtitle" : "Frontend developer",
+        "nav1" : "Services",
+        "nav2" : "Portfolio",
+        "nav3" : "Contact me",
+        "copyright" : "&#169; Cristhian. All right reserved 2024."
     }
 }

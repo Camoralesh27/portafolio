@@ -877,7 +877,7 @@
                         <i class="uil uil-phone contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Call me.</h3>
+                            <h3 class="contact__title" data-section="contact" data-value="call">Call me.</h3>
                             <span class="contact__subtitle"><a class="contact__tel" href="tel:+52 1 614 384 0053">(614) 384 0053</a></span>
                         </div>
                     </div> <!-- .contact__information -->
@@ -897,7 +897,7 @@
                         <i class="uil uil-map-marker contact__icon"></i>
 
                         <div>
-                            <h3 class="contact__title">Location.</h3>
+                            <h3 class="contact__title" data-section="contact" data-value="location">Location.</h3>
                             <span class="contact__subtitle">Chihuahua, Chih. México</span>
                         </div>
                     </div> <!-- .contact__information -->
@@ -905,50 +905,50 @@
 
                 <form action="" mathod="post" class="contact__form grid" id="form">
 
-                    <p class="contact__legend">*Please complete the required fields, and the send button will be activated.</p>
+                    <p class="contact__legend" data-section="contact" data-value="note1">Submit this form, and you’ll be automatically redirected to <b>WhatsApp</b> with your completed form details.</p>
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="name" class="contact__label">Name</label>
+                            <label for="name" class="contact__label" data-section="contact" data-value="name">Name</label>
                             <input id="name" name="name" type="text" class="contact__input" placeholder="Your name">
                         </div>
 
                         <div class="contact__content">
-                            <label for="email" class="contact__label" >Email</label>
+                            <label for="email" class="contact__label" data-section="contact" data-value="email">Email</label>
                             <input id="email" name="email" type="email" class="contact__input"
                             placeholder="Your email">
                         </div>
                     </div> <!-- .contact__inputs -->
 
                     <div class="contact__content">
-                        <label for="project" class="contact__label">Project</label>
+                        <label for="project" class="contact__label" data-section="contact" data-value="project">Project</label>
                         <!-- <input id="project" name="project" type="text" class="contact__input"> -->
 
                         <select name="project" class="contact__input" id="project">
-                            <option value="" selected disabled>-- Select an option --</option>
-                            <option value="Landing page">Landing page</option>
-                            <option value="Web page">Web page</option>
-                            <option value="Other">Other</option>
+                            <option value="" selected disabled data-section="contact" data-value="option1">-- Select an option --</option>
+                            <option value="Landing page" data-section="contact" data-value="option2">Landing page</option>
+                            <option value="Web page" data-section="contact" data-value="option3">Web site</option>
+                            <option value="Other" data-section="contact" data-value="option4">Other</option>
 
                         </select>
                     </div>
 
                     <div class="contact__content">
-                        <label for="message" class="contact__label">Description</label>
+                        <label for="message" class="contact__label" data-section="contact" data-value="description">Description</label>
                         <textarea id="message" name="message" cols="0" rows="7" class="contact__input" placeholder="Your project description"></textarea>
                     </div>
 
                     <div>
-                        <p class="contact__legend">Submit this form, and you’ll be automatically redirected to WhatsApp with your completed form details.</p>
+                        <p class="contact__legend" data-section="contact" data-value="note2">*Please complete the required fields, and the send button will be activated.</p>
 
                         <br>
 
                         <button onclick="sendToWhatsapp()" type="submit" class="button button--flex opacity-50" disabled>
-                            Send Message 
+                            <p data-section="contact" data-value="button1">Send Message</p>
                             <i class="uil uil-message button__icon"></i>
                         </button>
 
                         <button type="reset" class="button button--flex button--flex-red">
-                            Reset 
+                            <p data-section="contact" data-value="button2">Reset</p> 
                             <i class="uil uil-history-alt button__icon"></i>
                         </button>
                     </div>
@@ -964,20 +964,20 @@
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Cristhian</h1>
-                    <span class="footer__subtitle">Frontend developer</span>
+                    <span class="footer__subtitle" data-section="footer" data-value="subtitle">Frontend developer</span>
                 </div>
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services</a>
+                        <a href="#services" class="footer__link" data-section="footer" data-value="nav1">Services</a>
                     </li>
 
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                        <a href="#portfolio" class="footer__link" data-section="footer" data-value="nav2">Portfolio</a>
                     </li>
 
                     <li>
-                        <a href="#contact" class="footer__link">Contact me</a>
+                        <a href="#contact" class="footer__link" data-section="footer" data-value="nav3">Contact me</a>
                     </li>
                 </ul><!-- .footer__links -->
 
@@ -996,7 +996,7 @@
                 </div>
             </div><!-- .footer__container -->
 
-            <p class="footer__copy">&#169; Cristhian. All right reserved 2024.</p>
+            <p class="footer__copy" data-section="footer" data-value="copyright">&#169; Cristhian. All right reserved 2024.</p>
         </div><!-- .footer__bg -->
     </footer>
 

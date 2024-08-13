@@ -75,5 +75,30 @@
         "tag" : "Cliente",
         "testimonial1" : "¡Excelente servicio! Me encantó el diseño de mi sitio web. Todo el proceso, desde el concepto inicial hasta el producto final, fue una gran experiencia. Compartir el sitio con mis clientes ha sido gratificante y ayuda a los padres a sentirse más cómodos y seguros al usarlo.",
         "testimonial2" : "¡Estoy muy agradecida por mi nuevo sitio web! Se ve fantástico y ahora puedo mostrar mi portafolio a mis clientes, lo que les ayuda a sentirse más seguros de la calidad de mis servicios."
+    },
+    "contact" : {
+        "title" : "Contactame",
+        "subtitle" : "Ponte en contacto con nosotros",
+        "call" : "Llamame.",
+        "location" : "Ubicación.",
+        "note1" : "Envía este formulario y serás automáticamente redireccionado a <b>WhatsApp</b> con los detalles de tu formulario completado.",
+        "note2" : "*Por favor completa los campos requeridos, y el botón de enviar será habilitado.",
+        "name" : "Nombre",
+        "email" : "Correo Electrónico",
+        "project" : "Proyecto",
+        "description" : "Descripción",
+        "option1" : "--Selecciona una opción--",
+        "option2" : "Landing page",
+        "option3" : "Sitio Web",
+        "option4" : "Otro",
+        "button1" : "Enviar Mensaje",
+        "button2" : "Restaurar"
+    },
+    "footer" : {
+        "subtitle" : "Desarrollador Frontend",
+        "nav1" : "Servicios",
+        "nav2" : "Portafolio",
+        "nav3" : "Contactame",
+        "copyright" : "&#169; Cristhian. Todos los derechos reservados 2024."
     }
 }
