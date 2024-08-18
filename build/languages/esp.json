@@ -27,7 +27,13 @@
     },
     "skills" : {
         "title" : "Habilidades",
-        "subtitle" : "Mi nivel tecnico"
+        "subtitle" : "Mis habilidades técnicas",
+        "section1" : "Desarrollador Frontend",
+        "description1" : "Más de 3 años",
+        "section2" : "Desarrollador Backend",
+        "description2" : "Más de 1 año",
+        "section3" : "Diseñador",
+        "description3" : "Más de 1 año"
     },
     "qualification" : {
         "title" : "Experiencia",

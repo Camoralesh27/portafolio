@@ -27,7 +27,13 @@
     },
     "skills" : {
         "title" : "Skills",
-        "subtitle" : "My technical level"
+        "subtitle" : "My technical skills",
+        "section1" : "Frontend developer",
+        "description1" : "More than 3 years",
+        "section2" : "Backend developer",
+        "description2" : "More than 1 year",
+        "section3" : "Designer",
+        "description3" : "More than 1 year"
     },
     "qualification" : {
         "title" : "Background",
