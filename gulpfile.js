@@ -19,6 +19,18 @@ export function js(done) {
     done()
 }
 
+export function languages(done) {
+    src('src/languages/*.json')
+        .pipe( dest('build/languages') )
+    done()
+}
+
+export function svg(done) {
+    src('src/img/*.svg')
+        .pipe( dest('build/img') )
+    done()
+}
+
 export function css( done ){
     src('src/scss/app.scss', {sourcemaps: true}) 
         .pipe( sass({outputStyle: 'compressed'}).on('error', sass.logError)) 
@@ -59,7 +71,7 @@ export async function crop(done) {
 export async function imagenes(done) {  //webp
     const srcDir = './src/img';
     const buildDir = './build/img';
-    const images =  await glob('./src/img/**/*{jpg,png}')
+    const images =  await glob('./src/img/**/*.{jpg,png}')
 
     images.forEach(file => {
         const relativePath = path.relative(srcDir, path.dirname(file));
@@ -93,6 +105,6 @@ export function dev() {
 }
 
 /* export default series (crop, js, css, imagenes, dev) */
-export default series ( js, css, imagenes, dev)
+export default series ( js, css, languages, svg, imagenes, dev)
 
 

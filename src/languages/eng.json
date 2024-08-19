@@ -1,0 +1,110 @@
+{
+    "title" : {
+        "title" : "My portfolio"
+    },
+    "nav" : {
+        "home" : "Home",
+        "about": "About me",
+        "skills": "Skills",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "contact": "Contact me"
+    },
+    "home" : {
+        "title" : "Hi, I'm Cristhian",
+        "subtitle" : "Mechanical Engineer | FrontEnd Developer",
+        "description" : "With extensive experience in web design and a strong understanding of web development, I consistently deliver high-quality work.",
+        "button" : "Contact me",
+        "scroll" : "Scroll down"
+    },
+    "about" : {
+        "title" : "About Me",
+        "subtitle" : "My introduction",
+        "description" : "I work in the construction industry, specializing in earthworks and demolitions, as well as capturing orthophotos using drones. Additionally, I freelance as a coder and responsive web designer, utilizing UI/UX design principles to deliver high-quality work.",
+        "info1" : "Years <br> experience",
+        "info2" : "Completed <br> project",
+        "info3" : "Companies <br> worked"
+    },
+    "skills" : {
+        "title" : "Skills",
+        "subtitle" : "My technical skills",
+        "section1" : "Frontend developer",
+        "description1" : "More than 3 years",
+        "section2" : "Backend developer",
+        "description2" : "More than 1 year",
+        "section3" : "Designer",
+        "description3" : "More than 1 year"
+    },
+    "qualification" : {
+        "title" : "Background",
+        "subtitle" : "My personal journey",
+        "education" : "Education",
+        "work" : "Work",
+        "education1_title" : "Mechanical Enginner",
+        "education2_title" : "Web Development",
+        "education3_title" : "Web Development",
+        "work1_title" : "Mechanic Practitioner",
+        "work2_title" : "Earthworks and demolitions",
+        "work3_title" : "Freelance WebDeveloper"
+    },
+    "services" : {
+        "title" : "Services",
+        "subtitle" : "What I offer",
+        "button" : "View More",
+        "section1" : "UI/UX <br> Design",
+        "section2" : "Frontend <br> Developer",
+        "section3" : "Other <br> Services",
+        "description1" : "Define functionality (Static or dynamic website).",
+        "description2" : "Design a landing page or website for your brand." ,
+        "description3" : "Choose a domain that represents your brand.",
+        "description4" : "Code the design.",
+        "description5" : "Creat dynamic interactions for your static or dynamic webpage or landing page.",
+        "description6" : "Earthwork and demolition services in Chihuahua, Chihuahua, Mexico.",
+        "description7" : "Orthophotos with dron.",
+        "description8" : "Drone photografy and video."
+    },
+    "portfolio" : {
+        "title" : "Portfolio",
+        "subtitle" : "Most recent FrontEnd work",
+        "description1" : "Website for a Coffee Shop adaptable to all devices.",
+        "description2" : "Guitar store Website adaptable to all devices.",
+        "description3" : "Techno & EDM Festival Website adaptable to all devices."
+    },
+    "project" : {
+        "title" : "You have a new project in mind",
+        "description" : "Contact me now and get a 15% discount on your new project.",
+        "button" : "Contact me"
+    },
+    "testimonial" : {
+        "title" : "Testimonial",
+        "subtitle" : "What customers say",
+        "tag" : "Client",
+        "testimonial1" : "Excellent service! I loved the design of my website. The entire process, from the initial concept to the finished product, was a great experience. Sharing the site with my clients has been rewarding, and it helps parents feel more comfortable and confident in using it.",
+        "testimonial2" : "I'm very grateful for my new website! It looks fantastic, and I can now showcase my portfolio to my clients, helping them feel more confident in the quality of my services."
+    }, 
+    "contact" : {
+        "title" : "Contact me",
+        "subtitle" : "Get in touch",
+        "call" : "Call me.",
+        "location" : "Location.",
+        "note1" : "Submit this form, and you’ll be automatically redirected to <b>WhatsApp</b> with your completed form details.",
+        "note2" : "*Please complete the required fields, and the send button will be activated.",
+        "name" : "Name",
+        "email" : "Email",
+        "project" : "Project",
+        "description" : "Description",
+        "option1" : "--Select an option--",
+        "option2" : "Landing page",
+        "option3" : "Web site",
+        "option4" : "Other",
+        "button1" : "Send Message",
+        "button2" : "Reset"
+    },
+    "footer" : {
+        "subtitle" : "Frontend developer",
+        "nav1" : "Services",
+        "nav2" : "Portfolio",
+        "nav3" : "Contact me",
+        "copyright" : "&#169; Cristhian. All right reserved 2024."
+    }
+}

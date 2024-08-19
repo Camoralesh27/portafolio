@@ -1,0 +1,110 @@
+{
+    "title" : {
+        "title" : "Mi portafolio"
+    },
+    "nav" : {
+        "home" : "Inicio",
+        "about": "Sobre mi",
+        "skills": "Habilidades",
+        "services": "Servicios",
+        "portfolio": "Portafolio",
+        "contact": "Contactame"
+    },
+    "home" : {
+        "title" : "Hola, soy Cristhian",
+        "subtitle" : "Ingeniero Mecánico | Desarrollador FrontEnd",
+        "description" : "Con amplia experiencia en diseño web y un sólido entendimiento del desarrollo web, entrego constantemente trabajo de alta calidad.",
+        "button" : "Contactame",
+        "scroll" : "Desplazar hacia abajo"
+    },
+    "about" : {
+        "title" : "Sobre mi",
+        "subtitle" : "Mi introducción",
+        "description" : "Trabajo en la industria de la construcción, especializándome en movimientos de tierra y demoliciones, así como en la captura de ortofotos utilizando drones. Además, trabajo como freelance en programación y diseño web responsivo, aplicando principios de diseño UI/UX para entregar trabajos de alta calidad.",
+        "info1" : "Años de<br> experiencia",
+        "info2" : "Proyectos<br> completados",
+        "info3" : "Trabajos para<br> compañias"
+    },
+    "skills" : {
+        "title" : "Habilidades",
+        "subtitle" : "Mis habilidades técnicas",
+        "section1" : "Desarrollador Frontend",
+        "description1" : "Más de 3 años",
+        "section2" : "Desarrollador Backend",
+        "description2" : "Más de 1 año",
+        "section3" : "Diseñador",
+        "description3" : "Más de 1 año"
+    },
+    "qualification" : {
+        "title" : "Experiencia",
+        "subtitle" : "Mi aventura personal",
+        "education" : "Educación",
+        "work" : "Trabajo",
+        "education1_title" : "Ingeniero Mecánico",
+        "education2_title" : "Desarrollo Web",
+        "education3_title" : "Desarrollo Web",
+        "work1_title" : "Prácticas de Mecánica",
+        "work2_title" : "Terracerías y Demoliciones",
+        "work3_title" : "Desarrollador Web Independiente"
+    },
+    "services" : {
+        "title" : "Servicios",
+        "subtitle" : "Lo que ofrezco",
+        "button" : "Ver Más",
+        "section1" : "Diseño <br> UI/UX",
+        "section2" : "Desarrollo <br> FrontEnd",
+        "section3" : "Otros <br> Servicios",
+        "description1" : "Definir funcionalidad (Sitio Web estático ó dinámico).",
+        "description2" : "Diseñar una landing page ó website para tú marca." ,
+        "description3" : "Elegir un dominio que represente a tú marca.",
+        "description4" : "Codificar el diseño.",
+        "description5" : "Crear interacciones dinámicas para tu website ó landig page.",
+        "description6" : "Servicios de terracerías y demoliciones en Chihuahua, Chihuahua, México.",
+        "description7" : "Ortofotos con dron.",
+        "description8" : "Fotografía y video con dron."
+    },
+    "portfolio" : {
+        "title" : "Portafolio",
+        "subtitle" : "Trabajos FrontEnd más recientesMost",
+        "description1" : "Sitio Web para una tienda de Café adaptable a todos los dispositivos.",
+        "description2" : "Sitio Web de tienda de guitarras adaptable a todos los dispositivos.",
+        "description3" : "Sitio Web Techno & EDM Festival adaptable a todos los dispositivos."
+    },
+    "project" : {
+        "title" : "Tú tienes un proyecto en mente.",
+        "description" : "Contactame y obten un 15% de descuento en tu nuevo proyecto.",
+        "button" : "Contactame"
+    },
+    "testimonial" : {
+        "title" : "Testimoniales",
+        "subtitle" : "Lo que los clientes dicen",
+        "tag" : "Cliente",
+        "testimonial1" : "¡Excelente servicio! Me encantó el diseño de mi sitio web. Todo el proceso, desde el concepto inicial hasta el producto final, fue una gran experiencia. Compartir el sitio con mis clientes ha sido gratificante y ayuda a los padres a sentirse más cómodos y seguros al usarlo.",
+        "testimonial2" : "¡Estoy muy agradecida por mi nuevo sitio web! Se ve fantástico y ahora puedo mostrar mi portafolio a mis clientes, lo que les ayuda a sentirse más seguros de la calidad de mis servicios."
+    },
+    "contact" : {
+        "title" : "Contactame",
+        "subtitle" : "Ponte en contacto con nosotros",
+        "call" : "Llamame.",
+        "location" : "Ubicación.",
+        "note1" : "Envía este formulario y serás automáticamente redireccionado a <b>WhatsApp</b> con los detalles de tu formulario completado.",
+        "note2" : "*Por favor completa los campos requeridos, y el botón de enviar será habilitado.",
+        "name" : "Nombre",
+        "email" : "Correo Electrónico",
+        "project" : "Proyecto",
+        "description" : "Descripción",
+        "option1" : "--Selecciona una opción--",
+        "option2" : "Landing page",
+        "option3" : "Sitio Web",
+        "option4" : "Otro",
+        "button1" : "Enviar Mensaje",
+        "button2" : "Restaurar"
+    },
+    "footer" : {
+        "subtitle" : "Desarrollador Frontend",
+        "nav1" : "Servicios",
+        "nav2" : "Portafolio",
+        "nav3" : "Contactame",
+        "copyright" : "&#169; Cristhian. Todos los derechos reservados 2024."
+    }
+}
