@@ -374,39 +374,40 @@ const flagsElement = document.querySelector('#flags');
 const textsToChange = document.querySelectorAll('[data-section]');
 const inputName = document.querySelector('#name');
 const inputEmail = document.querySelector('#email');
-const inputMessage = document.querySelector('#message')
+const inputMessage = document.querySelector('#message');
 
-//Escuchar el cambio de checkbox y le cambia el data-language
-flagsElement.addEventListener('change',(e)=> {
-    if (e.target.checked) {
-        flagsElement.setAttribute('data-language','esp')
-        /* console.log(e.target.dataset.language); */
-        changeLanguages(e.target.dataset.language);
-        inputName.placeholder = 'Tu nombre';
-        inputEmail.placeholder = 'Tu correo electrónico';
-        inputMessage.placeholder = 'La descripción de tu proyecto';
+// Función para cambiar el idioma y guardar la preferencia en localStorage
+const setLanguage = (language) => {
+    flagsElement.setAttribute('data-language', language);
+    localStorage.setItem('selectedLanguage', language);
+    changeLanguages(language);
+    
+    inputName.placeholder = language === 'esp' ? 'Tu nombre' : 'Your name';
+    inputEmail.placeholder = language === 'esp' ? 'Tu correo electrónico' : 'Your email';
+    inputMessage.placeholder = language === 'esp' ? 'La descripción de tu proyecto' : 'Your project description';
+};
 
-    } else {
-        flagsElement.setAttribute('data-language','eng')
-        /* console.log(e.target.dataset.language); */
-        changeLanguages(e.target.dataset.language);
-        inputName.placeholder = 'Your name';
-        inputEmail.placeholder = 'Your email';
-        inputMessage.placeholder = 'Your project description';
-    }
+// Escuchar el cambio de checkbox y actualizar idioma
+flagsElement.addEventListener('change', (e) => {
+    let language = e.target.checked ? 'esp' : 'eng';
+    setLanguage(language);
 });
 
+// Cargar el idioma guardado al cargar la página
+document.addEventListener("DOMContentLoaded", () => {
+    let savedLanguage = localStorage.getItem('selectedLanguage') || 'eng'; // Idioma predeterminado: inglés
+    flagsElement.checked = savedLanguage === 'esp';
+    setLanguage(savedLanguage);
+});
 
-//Toma el json y modifica el idioma
-const changeLanguages = async language => {
-    const requestJson = await fetch(`./build/languages/${language}.json`);
+// Toma el JSON y modifica el idioma
+const changeLanguages = async (language) => {
+    const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();
 
-    for( const textToChange of textsToChange) {
-        const section = textToChange.dataset.section
-
-        const value = textToChange.dataset.value
-
-        textToChange.innerHTML = texts[section][value]
+    for (const textToChange of textsToChange) {
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value;
+        textToChange.innerHTML = texts[section][value];
     }
-}
+};
