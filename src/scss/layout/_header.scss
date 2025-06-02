@@ -17,6 +17,16 @@
     justify-content: space-between;
     align-items: center;
 
+    &__logo {
+        &-img {
+            width: 200px;
+
+            @include m.phone {
+                width: 140px;
+            }
+        }
+    }
+
     &__logo,
     &__toggle {
         color: var(--title-color);

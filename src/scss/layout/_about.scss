@@ -8,6 +8,7 @@
         border-radius: .5rem;
         justify-self: center;
         align-self: center; //! creo no cuajaron ¿Que son?
+        box-shadow: v.$box-shadow;
     }
 
     &__description {
