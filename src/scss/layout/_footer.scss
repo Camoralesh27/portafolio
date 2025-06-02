@@ -20,6 +20,16 @@
 
     &__subtitle {
         font-size: v.$small-font-size;
+        display: flex;
+
+    }
+
+    &__logo {
+        margin-top: -20px;
+
+        @include m.phone {
+            margin-top: 0;
+        }
     }
 
     &__links {
