@@ -1,6 +1,8 @@
 {
     "title" : {
-        "title" : "My portfolio"
+        "title": "Studio Ichi | Web Developer & Digital Marketing",
+        "description": "I'm a web developer based in Chihuahua. I create websites, landing pages, and WordPress pages optimized for SEO and ready to attract clients through digital marketing."
+
     },
     "nav" : {
         "home" : "Home",
