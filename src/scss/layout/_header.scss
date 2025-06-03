@@ -20,6 +20,9 @@
     &__logo {
         &-img {
             width: 200px;
+            user-select: none;
+            -webkit-user-drag: none;
+            pointer-events: none;
 
             @include m.phone {
                 width: 140px;

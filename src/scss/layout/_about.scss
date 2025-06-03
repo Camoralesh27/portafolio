@@ -9,6 +9,14 @@
         justify-self: center;
         align-self: center; //! creo no cuajaron ¿Que son?
         box-shadow: v.$box-shadow;
+
+        user-select: none;
+        -webkit-user-drag: none;
+        pointer-events: none;
+
+        @include m.phone {
+            width: 250px;
+        }
     }
 
     &__description {

@@ -43,6 +43,10 @@
         align-items: center;
         margin: auto; 
 
+        user-select: none;
+        -webkit-user-drag: none;
+        pointer-events: none;
+
         @include m.phone {
             width: 250px;
             height: 250px;
