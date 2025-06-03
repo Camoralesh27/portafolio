@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página principal -->
+  <url>
+    <loc>https://studioichi.com/</loc>
+    <lastmod>2025-06-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Secciones internas (One Page) -->
+  <url>
+    <loc>https://studioichi.com/#about</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://studioichi.com/#skills</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://studioichi.com/#services</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://studioichi.com/#portfolio</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://studioichi.com/#contact</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Proyectos externos (GitHub Pages) -->
+  <url>
+    <loc>https://camoralesh27.github.io/P5-SASS-Cafeteria/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://camoralesh27.github.io/P13-CSS-GuitarLA/</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://camoralesh27.github.io/P4-DevWeb-FestivalMusica/</loc>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

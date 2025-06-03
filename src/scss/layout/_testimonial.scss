@@ -18,6 +18,13 @@
         height: 60px;
         border-radius: 50%;
         margin-right: v.$mb-0-75;
+
+        user-select: none;
+        -webkit-user-drag: none;
+        pointer-events: none;
+
+        overflow: hidden ;
+
     }
 
     &__name {
