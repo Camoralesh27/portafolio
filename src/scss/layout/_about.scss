@@ -13,10 +13,13 @@
         user-select: none;
         -webkit-user-drag: none;
         pointer-events: none;
+        
+        overflow: hidden;
 
-        @include m.phone {
-            width: 250px;
-        }
+        display: block;
+        width: 80%;
+        height: auto;
+        line-height: 0;
     }
 
     &__description {
