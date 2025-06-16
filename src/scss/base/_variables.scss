@@ -78,6 +78,8 @@
     $text-color-light: hsl($hue-color, 8%, 65%);
     $input-color: hsl($hue-color, 70%, 96%);
     $body-color: hsl($hue-color, 60%, 99%);
+    $nav-color: hsl($hue-color, 10%, 94%);
+    $text-nav-color: hsl($hue-color, 8%, 15%);
     $container-color: #fff;
     $scroll-bar-color: hsl($hue-color, 12%, 90%);
     $scroll-thumb-color: hsl($hue-color, 12%, 80%);
@@ -94,6 +96,8 @@
         --text-color-light: #{$text-color-light};
         --input-color: #{$input-color};
         --body-color: #{$body-color};
+        --nav-color: #{$nav-color};
+        --text-nav-color: #{$text-nav-color};
         --container-color: #{$container-color};
         --scroll-bar-color: #{$scroll-bar-color};
         --scroll-thumb-color: #{$scroll-thumb-color};
@@ -107,6 +111,7 @@
     $text-color-DarkTheme: hsl($hue-color, 8%, 75%);
     $input-color-DarkTheme: hsl($hue-color, 29%, 16%);
     $body-color-DarkTheme: hsl($hue-color, 28%, 12%);
+    $nav-color-DarkTheme: hsl($hue-color, 10%, 75%);
     $container-color-DarkTheme: hsl($hue-color, 29%,16%); 
     $scroll-bar-color: hsl($hue-color, 12%, 48%);
     $scroll-thumb-color: hsl($hue-color, 12%, 36%);  
@@ -118,6 +123,7 @@
         --text-color: #{$text-color-DarkTheme};
         --input-color: #{$input-color-DarkTheme};
         --body-color: #{$body-color-DarkTheme};
+        --nav-color: #{$nav-color-DarkTheme};
         --container-color: #{$container-color-DarkTheme};
         --scroll-bar-color: #{$scroll-bar-color};
         --scroll-thumb-color: #{$scroll-thumb-color};
